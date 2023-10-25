@@ -23,4 +23,5 @@ if (!$serverExistsDest) {
 }
 else {
     Write-Host "The destination MySQL flexible server already exist or an error has occurred"
+    exit 1
 }

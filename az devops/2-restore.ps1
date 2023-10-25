@@ -28,4 +28,5 @@ if ($serverExistsSource -And !$serverExistsRestore) {
 
 } else {
     Write-Host "The Source MySQL flexible server $DestMysqlFlexibleName  already exist or an error has occurred"
+    exit 1
 }
